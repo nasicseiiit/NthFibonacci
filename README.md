@@ -1,76 +1,41 @@
-Problem 1
-#######
-Fibonacci Series
-==========
+The code consist of two problems
+#Fibonacci Series
 Write a programme to generate fibonacci series up to n number of terms Ex:
 When n = 5
 1, 1, 2, 3, 5
 
-
-============================
-Steps to run the source code
-============================
-FibanacciSeries.py is the source code file
-Please click on the FibanacciSeries.py file then it will prompt for the number input to find the fibanacce series 
-Once the user enters the input it will print the n numbers of fibanacci series  
-
-Running test cases
-###################
-
-FibonacciTest.py        -> this file consist of 1 test case
-
-#############################################
-
-#There are 1  getter file mentioned below
-
-   InputForFibanacci.py 
-   
-#############################################
-
-#There are logger file mentioned below
-
-   PrintFibanacciSeries.py 
-
-#############################################
-
-#There are 1  source file mentioned below
-
-   FibanacciSeries.py
-   
-#############################################################################################################
--------------------------------------------------------------------------------------------------------------
-Problem 2
-#######
-Prime Number
-==========
+#Prime Number
 Write a programme to find a number is prime number or not
 
-============================
-Steps to run the source code
-============================
-PrimeNumbers.py is the source code file
-Please click on the PrimeNumbers.py file then it will prompt for the number input to find the whether the number is prime or not 
-Once the user enters the input it will print the number is prime or not 
+#Installation
+First, clone NthFibonacciAndIsItPrime using git
 
-Running test cases
-###################
+_`git clone https://github.com/nasicseiiit/NthFibonacciAndIsItPrime`_
 
-PrimeTest.py        -> this file consist of 3 test cases
+Then, cd to the NthFibonacciAndIsItPrime folder 
 
-#############################################
+ cd NthFibonacci/
+ 
+ sudo python setup.py install
 
-#There are 1  getter file mentioned below
+#Usage
+`generateFibanacciSeries(1) #returns 1`
 
-   InputForIsPrime.py 
-   
-#############################################
+`generateFibanacciSeries(5) #returns [1,1,2,3,5]`
 
-#There are logger file mentioned below
 
-  PrintNumberIsPrime.py 
+`isItPrime(5) #returns It is a prime number`
 
-#############################################
+`isItPrime(8) #returns It is not a prime number`
 
-#There are 1  source file mentioned below
 
-   PrimeNumbers.py  
+#Contributing
+
+As I am a beginner and writing the projects in GitHub. 
+If you have any ideas or improvements, just open an issue by clicking on below link and tell me what you think.
+https://github.com/nasicseiiit/NthFibonacciAndIsItPrime/issues/new
+
+If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+
+#Licensing
+This project is licensed under Unlicense license. This license does not require you to take the license with you to your project. 
