@@ -18,7 +18,7 @@ _`git clone https://github.com/nasicseiiit/NthFibonacciAndIsItPrime`_
 
 Then, cd to the NthFibonacciAndIsItPrime folder 
 
- cd NthFibonacci/
+ cd NthFibonacciAndIsItPrime/
  
  sudo python setup.py install
 
