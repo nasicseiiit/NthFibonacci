@@ -10,19 +10,41 @@ When n = 5
 
 Write a programme to find a number is prime number or not
 
+#Requirements
+
+Please install python 3 and above
+
 #Installation
 
 First, clone NthFibonacciAndIsItPrime using git
 
 _`git clone https://github.com/nasicseiiit/NthFibonacciAndIsItPrime`_
 
+# To build the project
+
 Then, cd to the NthFibonacciAndIsItPrime folder 
 
  cd NthFibonacciAndIsItPrime/
  
  sudo python setup.py install
+ 
+#To run the project
 
-#Usage
+ cd NthFibonacciAndIsItPrime/
+ 
+ cd to the values folder in app
+ 
+ cd app/values
+ 
+ then execute below command for to get FibanacciSeries
+ 
+ python FibanacciSeries.py
+ 
+ then execute below command for to know whether the number is prime or not PrimeNumbers.py 
+ 
+ python PrimeNumbers.py
+
+#Example
 
 `generateFibanacciSeries(1) #returns 1`
 
